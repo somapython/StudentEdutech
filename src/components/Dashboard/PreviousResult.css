@@ -1,0 +1,36 @@
+
+
+@media (max-width: 768px) {
+    .react-datepicker__day,.react-datepicker__day-name, .react-datepicker__time-name{
+        width:1.2rem !important;
+    }
+  }
+/*
+.react-datepicker__day-names{
+    font-size: 12px;
+}
+.react-datepicker__header {
+  font-size: 12px;
+  padding: 8px; 
+}
+
+.react-datepicker__day {
+  width: 1.5rem; 
+  height: 1.5rem; 
+  line-height: 1.5rem; 
+  font-size: 12px; 
+}
+
+.react-datepicker__day-name {
+  font-size: 12px;
+}
+
+.react-datepicker__month {
+  padding: 8px; 
+}
+
+.react-datepicker__input-container input {
+  font-size: 12px; 
+  padding: 4px 8px; 
+  height: 28px;
+} */

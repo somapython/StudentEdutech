@@ -1,0 +1,48 @@
+/* Keyframes for card entering animation */
+@keyframes cardEnterAnimation {
+    from {
+      transform: translateY(-20px);
+      opacity: 0;
+    }
+    to {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  
+  /* Keyframes for card exiting animation */
+  @keyframes cardExitAnimation {
+    from {
+      transform: translateY(0);
+      opacity: 1;
+    }
+    to {
+      transform: translateY(20px);
+      opacity: 0;
+    }
+  }
+  
+  /* Enter animation */
+  .card-enter {
+    animation: cardEnterAnimation 0.3s ease forwards;
+  }
+  
+  /* Exit animation */
+  .card-exit {
+    animation: cardExitAnimation 0.3s ease forwards;
+  }
+  
+  /* Optional: Add hover effect for better interactivity */
+  .card {
+    transition: transform 0.2s ease;
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  @media (max-width: 768px) {
+    .react-datepicker__day,.react-datepicker__day-name, .react-datepicker__time-name{
+        width:1.2rem !important;
+    }
+  }

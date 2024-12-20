@@ -1,0 +1,22 @@
+.slick-slider .slick-dots {
+  position: absolute;
+  bottom: 10px; /* Adjust as needed */
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 10; /* Ensure it appears over the image */
+}
+
+.slick-slider .slick-dots li button:before {
+  font-size: 12px; /* Size of dots */
+  color: white; /* Dot color */
+}
+
+.slick-slider .slick-dots li.slick-active button:before {
+  color: blue; /* Active dot color */
+}
+
+@media (max-width: 768px) {
+    .slick-slider .slick-dots li button:before {
+      font-size: 8px; /* Smaller font size for smaller screens */
+    }
+  }
